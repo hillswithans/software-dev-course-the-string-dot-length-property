@@ -17,14 +17,19 @@ Your task is to:
 // Predefined strings
 let stringOne = "Coding Bootcamp";
 let stringTwo = "JavaScript";
-let stringThree = "";
+let stringThree = "Assignment Complete";
 
 // Your task: Assign the length of each string to the corresponding variable
-let lengthOne;   // Length of stringOne
+let lengthOne;    // Length of stringOne
 let lengthTwo;   // Length of stringTwo
 let lengthThree; // Length of stringThree
 
 // Your code here
 
+lengthOne = stringOne.length;
+lengthTwo = stringTwo.length;
+lengthThree = stringThree.length;
 
-
+console.log(lengthOne + " letters are in " + stringOne);
+console.log(lengthTwo + " letters are in " + stringTwo);
+console.log(lengthThree + " letters are in " + stringThree);
